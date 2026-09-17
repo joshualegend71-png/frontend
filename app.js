@@ -10,7 +10,7 @@
 // anywhere else (the published site) talks to the published API, which
 // serves the frontend itself so requests there are same-origin.
 const IS_LOCAL = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const API_ROOT = IS_LOCAL ? 'https://localhost:7109' : 'http://joelegend.runasp.net/';
+const API_ROOT = IS_LOCAL ? 'https://localhost:7109' : 'https://joelegend.runasp.net/';
 const API_BASE_URL = `${API_ROOT}/api/expenses`;
 const AUTH_BASE_URL = `${API_ROOT}/api/auth`;
 
